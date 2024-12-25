@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def modify_strings
   # Case 1: Direct string mutation
   greeting = "Hello"

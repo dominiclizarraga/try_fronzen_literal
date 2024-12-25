@@ -1,6 +1,6 @@
 # Ruby 3.4.1 Frozen Strings Demo
 
-This repository demonstrates the new string freezing behavior introduced in Ruby 3.4.1, showing how string mutations are handled both with and without the `frozen_string_literal` pragma. [official docs]([url](https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/))
+This repository demonstrates the new string freezing behavior introduced in Ruby 3.4.1, showing how string mutations are handled both with and without the `frozen_string_literal` pragma. [official release docs](https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/)
 
 ## Setup
 

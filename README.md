@@ -72,6 +72,12 @@ ruby string_mutation.rb
    - Without `frozen_string_literal: true`: Mutations work
    - With `frozen_string_literal: true`: Mutations raise FrozenError
 
+## MAIN TAKEAWAYS
+
+1. Ruby 3.3.6: "You can modify strings unless you explicitly say not to with the comment"
+2. Ruby 3.4.1: "You can still modify strings, but we're warning you that soon you won't be able to"
+3. Future Ruby: "All strings will be frozen by default, no comment needed!"
+
 ## Common Operations Demonstrated
 
 - Direct string mutation with `<<`

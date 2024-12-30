@@ -1,6 +1,6 @@
 # Ruby 3.4.1 Frozen Strings Demo
 
-This repository demonstrates the new string freezing behavior introduced in Ruby 3.4.1, showing how string mutations are handled both with and without the `frozen_string_literal` pragma.
+This repository demonstrates the new string freezing behavior introduced in Ruby 3.4.1, showing how string mutations are handled both with and without the `frozen_string_literal` pragma. [official release docs](https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/)
 
 ## Setup
 
@@ -76,7 +76,8 @@ ruby string_mutation.rb
 
 1. Ruby 3.3.6: "You can modify strings unless you explicitly say not to with the comment"
 2. Ruby 3.4.1: "You can still modify strings, but we're warning you that soon you won't be able to"
-3. Future Ruby: "All strings will be frozen by default, no comment needed!"
+   run `git:(master) ruby -W:deprecated file_name.rb` or set `Warning[:deprecated] = true`
+4. Future Ruby: "All strings will be frozen by default, no comment needed!"
 
 ## Common Operations Demonstrated
 
